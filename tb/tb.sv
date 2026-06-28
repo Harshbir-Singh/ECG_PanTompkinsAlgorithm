@@ -85,8 +85,8 @@ module tb;
                 $display("  SPKI : %0d", DUT.TS_Stage.SPKI);
                 $display("  NPKI : %0d", DUT.TS_Stage.NPKI);
                 $display("  THR1 : %0d", DUT.TS_Stage.THR1);
-                $display("  THR2   : %0d", DUT.TS_Stage.THR2);
-                $display("  State           : %0d", DUT.TS_Stage.state);
+                $display("  THR2 : %0d", DUT.TS_Stage.THR2);
+                $display("  State : %0d", DUT.TS_Stage.state);
                 $display("--------------------------------------------");
 
                 if (qrs_count > 1) begin
