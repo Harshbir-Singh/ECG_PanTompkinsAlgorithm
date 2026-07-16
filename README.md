@@ -4,7 +4,8 @@
 
 
 
-### <u>Design</u>:
+### Design:
+
 - Architecture:
 <img width="7050" height="1704" alt="ECG drawio" src="https://github.com/user-attachments/assets/6a924ba6-ade5-440b-afac-2908cce07aff" />
 
@@ -13,8 +14,10 @@
 
 
 ### Simulation and Evaluation:
+
 - Waveform:
 <img width="1235" height="797" alt="waveform" src="https://github.com/user-attachments/assets/a171b654-c931-49ee-993b-0c084d4d0240" />
+
 
 
 - Evaluation Table:
