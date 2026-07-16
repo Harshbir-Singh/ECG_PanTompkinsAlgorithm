@@ -9,7 +9,8 @@
 <img width="7050" height="1704" alt="ECG drawio" src="https://github.com/user-attachments/assets/6a924ba6-ade5-440b-afac-2908cce07aff" />
 
 #### Threshold FSM Logic:
-<img width="2400" height="1683" alt="ThresholdFSM" src="https://github.com/user-attachments/assets/b60ea2f2-a560-478f-8124-d0edb903c895" />
+<img width="2400" height="1683" alt="ThresholdFSM drawio" src="https://github.com/user-attachments/assets/3bdb7473-26f5-4aca-b3c8-d461a8ab7fe3" />
+
 
 ### Simulation and Evaluation:
 #### Waveform:
