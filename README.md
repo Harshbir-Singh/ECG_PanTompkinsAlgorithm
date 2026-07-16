@@ -1,4 +1,4 @@
-# Pan–Tompkins QRS Detector with Multi-Level Adaptive Thresholding
+# ECG QRS Detector with Multi-Level Adaptive Thresholding
 ### Pan-Tompkins Algorithm:
 <img width="641" height="196" alt="image" src="https://github.com/user-attachments/assets/bbbdac40-f2d7-444b-99c8-e00e5dd7d26b" />
 
