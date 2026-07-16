@@ -51,7 +51,7 @@ module tb;
         fp_qrs = $fopen("rtl_qrs_locations.txt", "w");
         if (fp_qrs == 0) begin
             $display("ERROR: Cannot open rtl_qrs_locations.txt");
-            $finish;
+            $stop;
         end
 
  
@@ -86,6 +86,7 @@ module tb;
                 $display("  NPKI : %0d", DUT.TS_Stage.NPKI);
                 $display("  THR1 : %0d", DUT.TS_Stage.THR1);
                 $display("  THR2 : %0d", DUT.TS_Stage.THR2);
+                $display("  THR_WEAK : %0d", DUT.TS_Stage.THR_WEAK);
                 $display("  State : %0d", DUT.TS_Stage.state);
                 $display("--------------------------------------------");
 
@@ -108,7 +109,7 @@ module tb;
         end 
         repeat(FLUSH_CYCLES) @(posedge clk_tb);
         $fclose(fp_qrs);
-        $finish;
+        $stop;
     end
 
 
