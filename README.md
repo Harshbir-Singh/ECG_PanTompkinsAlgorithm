@@ -14,7 +14,8 @@
 
 ### Simulation and Evaluation:
 #### Waveform:
-[waveform.bmp](https://github.com/user-attachments/files/30086430/waveform.bmp)
+<img width="1235" height="797" alt="waveform" src="https://github.com/user-attachments/assets/a171b654-c931-49ee-993b-0c084d4d0240" />
+
 
 #### Accuracy Table:
 <img width="613" height="753" alt="Evaluation_Table" src="https://github.com/user-attachments/assets/6449e66f-55ad-4a90-b9fb-849f5af92611" />
