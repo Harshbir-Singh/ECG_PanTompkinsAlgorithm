@@ -12,3 +12,9 @@
 #### Threshold FSM Logic:
 <img width="2400" height="1683" alt="ThresholdFSM" src="https://github.com/user-attachments/assets/b60ea2f2-a560-478f-8124-d0edb903c895" />
 
+### Simulation and Evaluation:
+#### Waveform:
+[waveform.bmp](https://github.com/user-attachments/files/30086430/waveform.bmp)
+
+#### Accuracy Table:
+<img width="613" height="753" alt="Evaluation_Table" src="https://github.com/user-attachments/assets/6449e66f-55ad-4a90-b9fb-849f5af92611" />
