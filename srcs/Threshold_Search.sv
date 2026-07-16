@@ -39,9 +39,7 @@ module Threshold_Search #(
 
     assign THR1 = NPKI + (spki_npki_diff >>> 2);
     assign THR2 = THR1 >>> 1;
-    assign THR_WEAK = NPKI
-                    + (spki_npki_diff >>> 4)
-                    + (spki_npki_diff >>> 5);
+    assign THR_WEAK = NPKI + (spki_npki_diff >>> 4) + (spki_npki_diff >>> 5);
 
     int refractory_cnt;
     int rr_cnt;
@@ -85,8 +83,8 @@ module Threshold_Search #(
             qrs_detected <= 1'b0;
             data_out_ts  <= '0;
             refractory_cnt <= 0;
-            rr_cnt         <= 0;
-            learn_cnt      <= 0;
+            rr_cnt <= 0;
+            learn_cnt <= 0;
             last_qrs_peak <= '0;
             state <= LEARN;
         end
@@ -156,8 +154,7 @@ module Threshold_Search #(
                             detected_this_cycle = 1'b1;
                         end
 
-                        else if ((rr_cnt >= WEAK_RR_LIMIT) &&
-                                 (s1 > THR_WEAK)) begin
+                        else if ((rr_cnt >= WEAK_RR_LIMIT) && (s1 > THR_WEAK)) begin
                             qrs_detected <= 1'b1;
                             data_out_ts  <= s1;
                             SPKI <= ht_update(SPKI, s1 >>> 1);
