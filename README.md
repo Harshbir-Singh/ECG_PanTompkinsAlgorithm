@@ -1,1 +1,1 @@
-# Optimized Pan–Tompkins QRS Detector with Multi-Level Adaptive Thresholding
+# Pan–Tompkins QRS Detector with Multi-Level Adaptive Thresholding
